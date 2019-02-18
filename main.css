@@ -4,10 +4,32 @@ body {
 }
 
 .jumbotron{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .highlight{
     color: teal;
+}
+
+@media (min-width:768px) {
+    .jumbotronContainer {
+        height:100vh;
+        display:flex;
+        align-items:center;
+    }
+    .jumbotronContainer div {
+        align-self:center;
+    }
+}
+
+@media (max-width:768px) {
+    .jumbotronContainer {
+        height:100vh;
+        display:flex;
+        align-items:center;
+    }
+    .jumbotronContainer div {
+        align-self:center;
+    }
 }
