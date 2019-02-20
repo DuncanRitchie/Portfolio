@@ -10,6 +10,7 @@ body {
 
 .jumbotronContainer{
     margin-top:18px;
+    height:100vh;
 }
 
 .jumbotron{
@@ -23,13 +24,11 @@ body {
 }
 
 .jumbotronBkgdPhoto {
-    position:absolute;
     display:flex;
     margin:0;
     padding:0;
     width:100%;
     height:100vh;
-    order:-1;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -37,6 +36,11 @@ body {
 #bkgdIndex {
     background-image: url(https://farm3.staticflickr.com/2876/34221833382_9c4efca202_k.jpg);
     /* Photo of St Andrews pier and East Sands at sunrise */
+}
+
+#bkgdCoding {
+    background-image: url(https://farm1.staticflickr.com/338/18527154218_173a70505d_k.jpg);
+    /* Photo of Chester's weir */
 }
 
 #bkgdAboutMe {
@@ -148,8 +152,14 @@ body {
 
 
 @media (min-width:768px) {
+    .jumbotronsAllContainer {
+        display:grid;
+        grid-template-areas: "jumbotron1 jumbotron2 jumbotron3 jumbotron4 jumbotron5"
+    }
+
     .jumbotronContainer {
         min-height:100vh;
+        width:100vw;
     }
 
     .jumbotronBkgdPhoto {
