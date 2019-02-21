@@ -13,8 +13,7 @@ body {
 }
 
 .jumbotron{
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding:3vw 10vw;
     background:rgba(255,255,255,0.9)
 }
 
@@ -29,11 +28,12 @@ body {
     width:100%;
     height:100vh;
     background-position: center center;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 
 #bkgdIndex {
-    background-image: url(https://farm3.staticflickr.com/2876/34221833382_9c4efca202_k.jpg);
+    background-image: url(https://farm1.staticflickr.com/865/40103359780_d32557cabd_k.jpg);
     /* Photo of St Andrews pier and East Sands at sunrise */
 }
 
@@ -43,8 +43,8 @@ body {
 }
 
 #bkgdAboutMe {
-    background-image: url(https://farm3.staticflickr.com/2896/14318776074_3e0fe13bb6_k.jpg);
-    /* Photo of Weimarador */
+    background-image: url(https://farm5.staticflickr.com/4205/35511958260_2a0a5667f5_k.jpg);
+    /* Photo of my dog in Duke's Drive woods*/
 }
 
 #bkgdChester {
@@ -82,6 +82,10 @@ body {
     padding:0;
     margin:0;
     display:inline;
+}
+
+.captionUnderJumbotronPhone {
+    display:none;
 }
 
 #indexLinksBody {
@@ -183,7 +187,44 @@ body {
     .jumbotronBkgdPhoto {
         padding-top:36px;
         padding-bottom:90px;
+        background-size:cover;
         min-height:fit-content;
+    }
+
+    #bkgdIndex {
+        background-image: url(https://farm1.staticflickr.com/980/28040346688_5f69829497_b.jpg);
+        /* Photo of St Andrews pier and East Sands at sunrise (portrait)*/
+    }
+    
+    #bkgdCoding {
+        background-image: url(https://farm1.staticflickr.com/338/18527154218_173a70505d_k.jpg);
+        /* Photo of Chester's weir */
+    }
+    
+    #bkgdAboutMe {
+        background-image: url(https://farm8.staticflickr.com/7856/46560838581_f56d755718_k.jpg);
+        /* Photo of woods with my dog */
+    }
+    
+    #bkgdChester {
+        background-image: url(https://farm2.staticflickr.com/1778/30115708258_55224642fc_k.jpg);
+        /* Photo of amphitheatre */
+    }
+    
+    #bkgdLatin {
+        background-image: url(https://farm1.staticflickr.com/869/41524368771_f294dcf6c6_k.jpg);
+        /* Photo of Swallowgate */
+    }
+    
+    #bkgdPhotos {
+        background-image: url(https://farm1.staticflickr.com/751/31879198700_876584077d_k.jpg);
+        /* Photo of three fulmars (portrait)*/
+    }
+    
+    
+    #bkgdTiQ {
+        background-image: url(https://farm5.staticflickr.com/4216/34984015144_e5bf503d8c_k.jpg);
+        /* Photo of St Mary's stained glass */
     }
 
     .jumbotron{
@@ -197,6 +238,16 @@ body {
     }
 
     .captionUnderJumbotron {
+        display:none;
+    }
+
+    .captionUnderJumbotronPhone {
+        padding: 0 10vw;
+        align-self:flex-end;
+        display:flex;
+        justify-content:space-between;
+        background:rgba(255,255,255,0.5);
+        color:black;
         position:absolute;
         transform:translateY(72px);
         width:100vw;
