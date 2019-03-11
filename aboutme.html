@@ -37,16 +37,17 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                      <li><a href="./index.html">Home</a></li>
-                      <li><a href="./code.html">My code</a></li>
+                      <li><a href="./index.html#index">Home</a></li>
+                      <li><a href="./code.html#code">My code</a></li>
                       <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More about me  <span class="sr-only">(current)</span> <span class="caret"></span></a>
                         <ul class="dropdown-menu">
+                          <li><a href="#dog">My dog</a></li>
                           <li><a href="#chester">Chester</a></li>
                           <li><a href="#latin">Latin</a></li>
                           <li><a href="#photos">Photography</a></li>
                           <li role="separator" class="divider"></li>
-                          <li><a href="./tiq.html">Theatre in the Quarter</a></li>
+                          <li><a href="./tiq.html#tiq">Theatre in the Quarter</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -54,36 +55,22 @@
                       <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search" id="headerSearch">
                       </div>
-                      <button type="submit" class="btn btn-default" onclick="window.open(`${document.getElementById('headerSearch').value}`, '_blank')">Submit</button>
+                      <button type="submit" class="btn btn-default" onclick="window.open(`https://www.google.com/search?q=duncan+ritchie+${document.getElementById('headerSearch').value}`, '_blank')">Submit</button>
                     </form>
                     <ul class="nav navbar-nav navbar-right">
-                      <!-- <li><a href="#">Link</a></li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="#">Separated link</a></li>
-                        </ul>
-                      </li> -->
-                    </ul>
-                      </li>
+                      <li><a href="https://github.com/DuncanRitchie">Github</a></li>
+                      <li><a href="https://www.linkedin.com/in/duncan-ritchie-3a3810168/">LinkedIn</a></li>
                     </ul>
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
               </nav>
   <div class="container-fluid jumbotronContainer">
+    <a class="anchor" id="dog"></a>
     <div class="jumbotronBkgdPhoto img-responsive" id="bkgdAboutMe">
-      <div class="jumbotron">
-        <h1>About <span class="highlight">me</span>.</h1>
+      <div class="jumbotron-main">
+        <h1>My <span class="highlight">dog</span>.</h1>
         <p>
-          I am <span class="highlight">twenty-two years old</span>. I live in <span class="highlight">Chester</span>, England, where I enjoy walking my Weimaraner-Labrador cross. 
-          I have been to Scotland many times, including to university for my <span class="highlight">degree in Latin</span>.
-        </p>
-        <p>
-          Scroll for a bit more info!
+          She&rsquo;s a seven-year-old Weimaraner-Labrador cross.
         </p>
       </div>
       <div class="captionUnderJumbotron" id="cujAboutMe">
@@ -109,9 +96,10 @@
     </div>
   </div>
     
-  <div class="container-fluid jumbotronContainer" id="chester">
+  <div class="container-fluid jumbotronContainer">
+    <a class="anchor" id="chester"></a>
     <div class="jumbotronBkgdPhoto img-responsive" id="bkgdChester">
-      <div class="jumbotron">
+      <div class="jumbotron-main">
         <h1>The city of <span class="highlight">Chester</span>.</h1>
         <p>
           Nestled <span class="highlight">between the mountains of Snowdonia and the plains of Cheshire</span>, 
@@ -149,9 +137,10 @@
     </div>
   </div>
     
-  <div class="container-fluid jumbotronContainer" id="latin">
+  <div class="container-fluid jumbotronContainer">
+      <a class="anchor" id="latin"></a>
       <div class="jumbotronBkgdPhoto img-responsive" id="bkgdLatin">
-        <div class="jumbotron">
+        <div class="jumbotron-main">
           <h1>I did <span class="highlight">Latin</span>.</h1>
           <p>
             I studied Latin at the <span class="highlight">University of St Andrews</span>, graduating with a 2:1 master&rsquo;s in <span class="highlight">June 2018</span>. My command of the language itself was particularly commended.
@@ -180,9 +169,10 @@
       </div>
   </div>
     
-  <div class="container-fluid jumbotronContainer" id="photos">
+  <div class="container-fluid jumbotronContainer">
+    <a class="anchor" id="photos"></a>
     <div class="jumbotronBkgdPhoto img-responsive" id="bkgdPhotos">
-        <div class="jumbotron">
+        <div class="jumbotron-main">
           <h1>My <span class="highlight">photography</span>.</h1>
           <p>
             Since the age of nine I have been taking photos, such as the ones on this page. I&rsquo;ve built up quite a collection on my <a href="https://www.flickr.com/photos/dunnock_d" title="My Flickr account">Flickr</a> account. My usual subjects include the <span class="highlight">birds</span> and <span class="highlight">landscapes</span> I find myself around.

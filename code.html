@@ -37,16 +37,17 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="./index.html#index">Home</a></li>
                       <li class="active"><a href="#">My code <span class="sr-only">(current)</span></a></li>
                       <li class="dropdown">
                         <a href="./aboutme.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More about me <span class="caret"></span></a>
                         <ul class="dropdown-menu">
+                          <li><a href="./aboutme.html#dog">My dog</a></li>
                           <li><a href="./aboutme.html#chester">Chester</a></li>
                           <li><a href="./aboutme.html#latin">Latin</a></li>
                           <li><a href="./aboutme.html#photos">Photography</a></li>
                           <li role="separator" class="divider"></li>
-                          <li><a href="./tiq.html">Theatre in the Quarter</a></li>
+                          <li><a href="./tiq.html#tiq">Theatre in the Quarter</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -54,20 +55,25 @@
                       <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search" id="headerSearch">
                       </div>
-                      <button type="submit" class="btn btn-default" onclick="window.open(`https://www.google.com/search?q=${document.getElementById('headerSearch').value}`, '_blank')">Submit</button>
+                      <button type="submit" class="btn btn-default" onclick="window.open(`https://www.google.com/search?q=duncan+ritchie+${document.getElementById('headerSearch').value}`, '_blank')">Submit</button>
                     </form>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="https://github.com/DuncanRitchie">Github</a></li>
+                      <li><a href="https://www.linkedin.com/in/duncan-ritchie-3a3810168/">LinkedIn</a></li>
+                    </ul>
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
               </nav>
   <div class="jumbotronContainer">
+      <a class="anchor" id="code"></a>
       <div class="jumbotronBkgdPhoto" id="bkgdCoding">
-        <div class="jumbotron">
+        <div class="jumbotron-main">
           <h1>My <span class="highlight">coding</span> story.</h1>
           <p>I have always been interested in <span class="highlight">getting computers to do neat stuff</span>.</p>
           <p>I self-taught myself a lot of <span class="highlight">advanced MS Excel</span> functionality, in the development of sophisticated personal projects, including a <span class="highlight">Latin rhyming dictionary</span>.</p>
           <p>My formal education in the field was minimal. That changed in January 2019, when I joined <a href="https://wearecodenation.com/" title="Code Nation&rsquo;s website">Code Nation</a>, a start-up that will teach you employable IT skills regardless of your prior level of experience.</p>
           <p>Since then, I have progressed rapidly in my understanding of <span class="highlight">HTML</span>, <span class="highlight">CSS</span>, and <span class="highlight">Javascript</span>.</p>
-          <p>Check out some of my <a href="#indexLinksBody" title="Javascript projects">Javascript projects</a>, linked below!</p>
+          <p>Check out some of my <a href="#javascriptProjects" title="Javascript projects">Javascript projects</a>, linked below!</p>
       </div>
       <div class="captionUnderJumbotron" id="cujCoding">
         <p>
@@ -92,6 +98,7 @@
     </div>
   </div>
   <div id="indexLinksBody">
+  <a class="anchor" id="javascriptProjects"></a>
     <div class="indexLinkDiv">
         <a class="indexLinkA" href="https://duncanritchie.github.io/jsChallenges/cyberpet.html" alt="Cyber-pet">
             Cyber-pet<br />
