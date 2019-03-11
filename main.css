@@ -148,20 +148,20 @@ body {
 }
 
 .indexLinkToBadPage {
-    background-color:lavenderblush;
-    border:5px solid maroon;
+    background-color:#e6f2ff;
+    border:5px solid #0066cc;
 }
 
 .indexLinkToBadPage a {
-    color:maroon;
+    color:#0066cc;
 }
 
 .indexLinkToBadPage a:after {
-    content: " (not done)";
+    content: " (not yet finished)";
 }
 
 .indexLinkToBadPage a:hover {
-    color:indianred;
+    color:dodgerblue;
 }
 
 @media (min-width:2048px){
