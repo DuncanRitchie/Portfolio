@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
 body {
     font-family: 'Alegreya', serif;
     padding-top:30px;
     padding-left:0px;
     padding-right:0px;
     background-color:rgb(0,32,32);
+}
+
+.header-icon {
+    display: inline;
+    width: 18px;
+    height: 18px;
 }
 
 .jumbotronContainer {
@@ -24,14 +32,6 @@ body {
     padding:3vw 10vw;
     background:rgba(255,255,255,0.75);
     border-radius: 0;
-}
-
-h1 {
-    font-size: 54px;
-}
-
-.jumbotron-main p {
-    font-size: 24px;
 }
 
 .highlight{
@@ -193,10 +193,18 @@ h1 {
         align-self:flex-end;
     }
 
+    h1 {
+        font-size: 54px;
+    }
+    
+    .jumbotron-main p {
+        font-size: 24px;
+    }
+
     #indexLinksBody {
         align-items:center;
         height:100vh;
-        font-size:inherit;
+        font-size:18px;
     }
 }
 
