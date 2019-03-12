@@ -115,6 +115,7 @@ body {
 }
 
 .indexLinkDiv {
+    display:flex;
     margin-top:20px;
     width:500px;
     height:300px;
@@ -140,6 +141,12 @@ body {
 
 .indexLinkA:hover {
     color:darkseagreen;
+}
+
+.projectScreenshot {
+    height:250px;
+    float:left;
+    transform:translateY(-60px)
 }
 
 .indexFinishDate{
