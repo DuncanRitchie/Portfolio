@@ -279,11 +279,15 @@ body {
         align-self:flex-end;
         display:flex;
         justify-content:space-between;
-        background:rgba(255,255,255,0.5);
+        background:rgba(255,255,255,0.65);
         color:black;
         position:absolute;
         transform:translateY(72px);
         width:100vw;
+    }
+
+    .captionUnderJumbotronPhone p {
+        margin: 0;
     }
 
     .cujSource {
