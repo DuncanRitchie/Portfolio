@@ -56,37 +56,44 @@ body {
 #bkgdIndex {
     background-image: url(https://farm1.staticflickr.com/865/40103359780_d32557cabd_k.jpg);
     /* Photo of St Andrews pier and East Sands at sunrise */
+    background-color: rgb(159,62,41);
 }
 
 #bkgdCoding {
     background-image: url(https://farm1.staticflickr.com/338/18527154218_173a70505d_k.jpg);
     /* Photo of Chester's weir */
+    background-color: rgb(61,122,197);
 }
 
 #bkgdAboutMe {
     background-image: url(https://farm5.staticflickr.com/4205/35511958260_2a0a5667f5_k.jpg);
     /* Photo of my dog in Duke's Drive woods*/
+    background-color: rgb(117,135,56);
 }
 
 #bkgdChester {
     background-image: url(https://farm2.staticflickr.com/1778/30115708258_55224642fc_k.jpg);
     /* Photo of amphitheatre */
+    background-color: rgb(206,241,253);
 }
 
 #bkgdLatin {
     background-image: url(https://farm1.staticflickr.com/869/41524368771_f294dcf6c6_k.jpg);
     /* Photo of Swallowgate */
+    background-color: rgb(194,204,207);
 }
 
 #bkgdPhotos {
     background-image: url(https://farm5.staticflickr.com/4785/40804009451_35dbf25637_k.jpg);
     /* Photo of fulmars */
+    background-color: rgb(162,137,103);
 }
 
 
 #bkgdTiQ {
     background-image: url(https://farm5.staticflickr.com/4216/34984015144_e5bf503d8c_k.jpg);
     /* Photo of St Mary's stained glass */
+    background-color: rgb(173,138,43);
 }
 
 .captionUnderJumbotron {
@@ -309,8 +316,12 @@ body {
     }
 }
 
-@media (max-width:318px) {
+@media (max-width:375px) {
     .body {
         padding-top:600px;
+    }
+
+    #indexLinkA {
+        padding:0px;
     }
 }
