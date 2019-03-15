@@ -143,8 +143,10 @@ body {
 .indexLinkA {
     width:100%;
     height:100%;
-    padding:80px 50px 80px 50px;
-    display:block;
+    padding:auto 50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
     text-decoration:none;
     color:teal;
     font-weight:bold;
@@ -156,8 +158,6 @@ body {
 
 .projectScreenshot {
     height:250px;
-    float:left;
-    transform:translateY(-60px)
 }
 
 .indexFinishDate{
@@ -172,10 +172,6 @@ body {
 
 .indexLinkToBadPage a {
     color:#0066cc;
-}
-
-.indexLinkToBadPage a:after {
-    content: " (not yet finished)";
 }
 
 .indexLinkToBadPage a:hover {
@@ -320,8 +316,23 @@ body {
     .body {
         padding-top:600px;
     }
+    
+    .indexLinkDiv {
+        height:270px;
+    }
 
-    #indexLinkA {
-        padding:0px;
+    .indexLinkA {
+        padding:0;
+        display:flex;
+        align-items:center;
+    }
+
+    .projectScreenshot {
+        transform:translateY(0px)
+    }
+
+    .indexLinkA div {
+        margin:0;
+        height: auto;
     }
 }
