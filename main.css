@@ -160,6 +160,10 @@ body {
     height:250px;
 }
 
+.indexLinkA div {
+    padding:0 20px;
+}
+
 .indexFinishDate{
     color:grey;
     font-weight:normal;
