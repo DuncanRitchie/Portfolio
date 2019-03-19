@@ -192,6 +192,7 @@ body {
 }
 
 .indexLinkA div {
+    width:250px;
     padding:0 20px;
 }
 
@@ -254,11 +255,6 @@ body {
         align-items:center;
         height:100vh;
         font-size:18px;
-    }
-
-    #indexLinkA div {
-        width: 250px;
-        padding: 0px;
     }
 }
 
