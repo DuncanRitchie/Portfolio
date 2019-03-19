@@ -215,7 +215,7 @@ body {
 
 @media (min-width:2048px){
     .jumbotronContainer {
-        background-size:100vw 100vh;
+        background-size:100vw calc(100vh -  48px);
     }
 }
 
@@ -254,6 +254,11 @@ body {
         align-items:center;
         height:100vh;
         font-size:18px;
+    }
+
+    #indexLinkA div {
+        width: 250px;
+        padding: 0px;
     }
 }
 
