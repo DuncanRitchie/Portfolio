@@ -115,7 +115,10 @@ body {
 }
 
 #bkgdPhotos {
-    background-image: url(https://farm5.staticflickr.com/4785/40804009451_35dbf25637_k.jpg);
+    background-image: url(https://farm2.staticflickr.com/1740/40646047430_11f67802b5_b.jpg);
+    /* Photo of heron (landscape) */
+
+    /* background-image: url(https://farm5.staticflickr.com/4785/40804009451_35dbf25637_k.jpg); */
     /* Photo of fulmars */
     background-color: rgb(162,137,103);
 }
@@ -292,7 +295,10 @@ body {
     }
     
     #bkgdPhotos {
-        background-image: url(https://farm1.staticflickr.com/751/31879198700_876584077d_k.jpg);
+        background-image: url(https://farm2.staticflickr.com/1746/40646045120_1e942c9374_b.jpg);
+        /* Photo of heron (portrait) */
+
+        /* background-image: url(https://farm1.staticflickr.com/751/31879198700_876584077d_k.jpg); */
         /* Photo of three fulmars (portrait)*/
     }
     
