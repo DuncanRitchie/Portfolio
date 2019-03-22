@@ -117,10 +117,11 @@ body {
 #bkgdPhotos {
     background-image: url(https://farm2.staticflickr.com/1740/40646047430_11f67802b5_b.jpg);
     /* Photo of heron (landscape) */
+    background-color: rgb(148,167,24);
 
     /* background-image: url(https://farm5.staticflickr.com/4785/40804009451_35dbf25637_k.jpg); */
     /* Photo of fulmars */
-    background-color: rgb(162,137,103);
+    /* background-color: rgb(162,137,103); */
 }
 
 
