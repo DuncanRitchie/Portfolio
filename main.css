@@ -9,8 +9,16 @@ body {
     overflow-x: hidden;
 }
 
+a:link {
+    font-weight: 600;
+}
+
 .navbar {
     width:100vw;
+}
+
+.navbar a {
+    font-weight: normal
 }
 
 .navbar-right {
@@ -34,7 +42,7 @@ body {
 }
   
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(255, 255, 255); 
+    background: rgb(255, 255, 255);
 }
 
 ::-webkit-scrollbar-corner {
