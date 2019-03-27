@@ -180,10 +180,18 @@ a:link {
     text-align:center;
     align-items:center;
     border:5px solid teal;
+    position: relative
 }
 
 .indexLinkDiv:hover {
     background-color:white;
+}
+
+.githubLink {
+    position: absolute;
+    right: 6px;
+    bottom: -4px;
+    font-size: 36px
 }
 
 .indexLinkA {
