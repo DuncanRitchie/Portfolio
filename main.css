@@ -61,6 +61,7 @@ a:link {
     margin-top:18px;
     padding:0 0;
     min-height:calc(100vh - 48px);
+    width: 100vw
 }
 
 .anchor {
@@ -73,6 +74,7 @@ a:link {
 
 .jumbotron-main{
     padding:3vw 10vw;
+    width: 100vw;
     background:rgba(255,255,255,0.75);
     border-radius: 0;
 }
