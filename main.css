@@ -53,11 +53,11 @@ a:link {
     display: inline;
 }
 
-#headerSearchForm {
+#header-search-form {
     display:none;
 }
 
-.jumbotronContainer {
+.jumbotron-container {
     margin-top:18px;
     padding:0 0;
     min-height:calc(100vh - 48px);
@@ -84,7 +84,7 @@ a:link {
     color: teal;
 }
 
-.jumbotronBkgdPhoto {
+.jumbotron-bkgd-photo {
     display:flex;
     margin:0 0;
     padding:0 0;
@@ -95,37 +95,37 @@ a:link {
     background-repeat: no-repeat;
 }
 
-#bkgdIndex {
+#bkgd-index {
     background-image: url(https://farm1.staticflickr.com/865/40103359780_d32557cabd_k.jpg);
     /* Photo of St Andrews pier and East Sands at sunrise */
     background-color: rgb(159,62,41);
 }
 
-#bkgdCoding {
+#bkgd-coding {
     background-image: url(https://farm1.staticflickr.com/338/18527154218_173a70505d_k.jpg);
     /* Photo of Chester's weir */
     background-color: rgb(61,122,197);
 }
 
-#bkgdAboutMe {
+#bkgd-about-me {
     background-image: url(https://farm5.staticflickr.com/4205/35511958260_2a0a5667f5_k.jpg);
     /* Photo of my dog in Duke's Drive woods*/
     background-color: rgb(117,135,56);
 }
 
-#bkgdChester {
+#bkgd-chester {
     background-image: url(https://farm2.staticflickr.com/1778/30115708258_55224642fc_k.jpg);
     /* Photo of amphitheatre */
     background-color: rgb(206,241,253);
 }
 
-#bkgdLatin {
+#bkgd-latin {
     background-image: url(https://farm1.staticflickr.com/869/41524368771_f294dcf6c6_k.jpg);
     /* Photo of Swallowgate */
     background-color: rgb(194,204,207);
 }
 
-#bkgdPhotos {
+#bkgd-photos {
     background-image: url(https://farm2.staticflickr.com/1740/40646047430_11f67802b5_b.jpg);
     /* Photo of heron (landscape) */
     background-color: rgb(148,167,24);
@@ -136,7 +136,7 @@ a:link {
 }
 
 
-#bkgdTiQ {
+#bkgd-tiq {
     background-image: url(https://farm5.staticflickr.com/4216/34984015144_e5bf503d8c_k.jpg);
     /* Photo of St Mary's stained glass */
     background-color: rgb(173,138,43);
@@ -150,7 +150,7 @@ a:link {
     background-repeat: no-repeat;
 }
 
-.captionUnderJumbotron {
+.cuj {
     padding: 0 10vw;
     align-self:flex-end;
     display:flex;
@@ -160,17 +160,17 @@ a:link {
     color:black;
 }
 
-.captionUnderJumbotron p {
+.cuj p {
     padding:0;
     margin:0;
     display:inline;
 }
 
-.captionUnderJumbotronPhone {
+.cuj-phone {
     display:none;
 }
 
-#indexLinksBody {
+#index-links-body {
     display:flex;
     flex-flow:row;
     flex-wrap:wrap;
@@ -180,7 +180,7 @@ a:link {
     width: 100vw
 }
 
-.indexLinkDiv {
+.index-link-div {
     display:flex;
     margin:12px 0 6px 0;
     width:425px;
@@ -192,18 +192,18 @@ a:link {
     position: relative
 }
 
-.indexLinkDiv:hover {
+.index-link-div:hover {
     background-color:white;
 }
 
-.githubLink {
+.github-link {
     position: absolute;
     right: 6px;
     bottom: -4px;
     font-size: 36px
 }
 
-.indexLinkA {
+.index-link-a {
     width:100%;
     height:100%;
     padding:auto 50px;
@@ -215,39 +215,39 @@ a:link {
     font-weight:bold;
 }
 
-.indexLinkA:hover {
+.index-link-a:hover {
     color:darkseagreen;
 }
 
-.projectScreenshot {
+.project-screenshot {
     height:240px;
 }
 
-.indexLinkA div {
+.index-link-a div {
     width:250px;
     padding:0 20px;
 }
 
-.indexFinishDate{
+.index-finish-date{
     color:grey;
     font-weight:normal;
 }
 
-.indexLinkToBadPage {
+.index-link-to-bad-page {
     background-color:#e6f2ff;
     border:5px solid #0066cc;
 }
 
-.indexLinkToBadPage a {
+.index-link-to-bad-page a {
     color:#0066cc;
 }
 
-.indexLinkToBadPage a:hover {
+.index-link-to-bad-page a:hover {
     color:dodgerblue;
 }
 
 @media (min-width:2048px){
-    .jumbotronContainer {
+    .jumbotron-container {
         background-size:100vw calc(100vh -  48px);
     }
 }
@@ -259,12 +259,12 @@ a:link {
         top:0;
     }
 
-    .jumbotronContainer {
+    .jumbotron-container {
         min-height:(100vh - 48px);
         width:100vw;
     }
 
-    .jumbotronBkgdPhoto {
+    .jumbotron-bkgd-photo {
         display:grid;
         min-height:(100vh - 48px);
         align-items:center;
@@ -297,7 +297,7 @@ a:link {
         font-size: 20px;
     }
 
-    #indexLinksBody {
+    #index-links-body {
         align-items:center;
         height:100vh;
         font-size:18px;
@@ -306,39 +306,39 @@ a:link {
 }
 
 @media (max-width:767px) {
-    .jumbotronBkgdPhoto {
+    .jumbotron-bkgd-photo {
         padding-top:36px;
         padding-bottom:90px;
         background-size:cover;
         min-height:fit-content;
     }
 
-    #bkgdIndex {
+    #bkgd-index {
         background-image: url(https://farm1.staticflickr.com/980/28040346688_5f69829497_b.jpg);
         /* Photo of St Andrews pier and East Sands at sunrise (portrait)*/
     }
     
-    #bkgdCoding {
+    #bkgd-coding {
         background-image: url(https://farm1.staticflickr.com/338/18527154218_173a70505d_k.jpg);
         /* Photo of Chester's weir */
     }
     
-    #bkgdAboutMe {
+    #bkgd-about-me {
         background-image: url(https://farm8.staticflickr.com/7856/46560838581_f56d755718_k.jpg);
         /* Photo of woods with my dog */
     }
     
-    #bkgdChester {
+    #bkgd-chester {
         background-image: url(https://farm2.staticflickr.com/1778/30115708258_55224642fc_k.jpg);
         /* Photo of amphitheatre */
     }
     
-    #bkgdLatin {
+    #bkgd-latin {
         background-image: url(https://farm1.staticflickr.com/869/41524368771_f294dcf6c6_k.jpg);
         /* Photo of Swallowgate */
     }
     
-    #bkgdPhotos {
+    #bkgd-photos {
         background-image: url(https://farm2.staticflickr.com/1746/40646045120_1e942c9374_b.jpg);
         /* Photo of heron (portrait) */
 
@@ -347,7 +347,7 @@ a:link {
     }
     
     
-    #bkgdTiQ {
+    #bkgd-tiq {
         background-image: url(https://farm5.staticflickr.com/4216/34984015144_e5bf503d8c_k.jpg);
         /* Photo of St Mary's stained glass */
     }
@@ -371,11 +371,11 @@ a:link {
         font-size:16px;
     }
 
-    .captionUnderJumbotron {
+    .cuj {
         display:none;
     }
 
-    .captionUnderJumbotronPhone {
+    .cuj-phone {
         padding: 0 10vw;
         align-self:flex-end;
         display:flex;
@@ -387,21 +387,21 @@ a:link {
         width:100vw;
     }
 
-    .captionUnderJumbotronPhone p {
+    .cuj-phone p {
         margin: 0;
     }
 
-    .cujSource {
+    .cuj-source {
         align-self:flex-end;
     }
 
-    .indexLinksBody {
+    .index-links-body {
         min-height:fit-content;
         justify-content:space-around;
         padding:36px 0px 18px 0px;
     }
 
-    .indexLinkDiv {
+    .index-link-div {
         width:90vw;
     }
 }
@@ -411,21 +411,21 @@ a:link {
         padding-top:600px;
     }
     
-    .indexLinkDiv {
+    .index-link-div {
         height:270px;
     }
 
-    .indexLinkA {
+    .index-link-a {
         padding:0;
         display:flex;
         align-items:center;
     }
 
-    .projectScreenshot {
+    .project-screenshot {
         transform:translateY(0px)
     }
 
-    .indexLinkA div {
+    .index-link-a div {
         margin:0;
         height: auto;
     }
