@@ -142,6 +142,14 @@ a:link {
     background-color: rgb(173,138,43);
 }
 
+.image-headshot {
+    display: block;
+    background-image: url(./duncan-ritchie-headshot.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
 .captionUnderJumbotron {
     padding: 0 10vw;
     align-self:flex-end;
@@ -275,6 +283,8 @@ a:link {
     }
 
     .jumbotron-image {
+        width: 20vw;
+        height: 100%;
         padding-left: 36px;
         object-fit: cover;
     }
