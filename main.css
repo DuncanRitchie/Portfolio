@@ -13,6 +13,8 @@ a:link {
     font-weight: 600;
 }
 
+/* Navbar CSS */
+
 .navbar {
     width:100vw;
 }
@@ -24,6 +26,16 @@ a:link {
 .navbar-right {
     padding-right:8px;
 }
+
+.header-icon {
+    display: inline;
+}
+
+#header-search-form {
+    display:none;
+}
+
+/* Scroll bar */
 
 ::-webkit-scrollbar {
     height:0;
@@ -49,13 +61,7 @@ a:link {
     display:none;
 }
 
-.header-icon {
-    display: inline;
-}
-
-#header-search-form {
-    display:none;
-}
+/* Jumbotrons and containers */
 
 .jumbotron-container {
     margin-top:18px;
@@ -83,6 +89,8 @@ a:link {
 .highlight{
     color: teal;
 }
+
+/* Jumbotron backgrounds */
 
 .jumbotron-bkgd-photo {
     display:flex;
@@ -142,13 +150,17 @@ a:link {
     background-color: rgb(173,138,43);
 }
 
+/* Photo of me in index.html */
+
 .image-headshot {
-    display: none;
+    display: block;
     background-image: url(./duncan-ritchie-headshot.jpg);
     background-position: center center;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* Captions under jumbotrons */
 
 .cuj {
     padding: 0 10vw;
@@ -169,6 +181,8 @@ a:link {
 .cuj-phone {
     display:none;
 }
+
+/* Code Nation project showcase */
 
 #index-links-body {
     display:flex;
@@ -246,12 +260,15 @@ a:link {
     color:dodgerblue;
 }
 
+/* Media query only for massive screens */
+
 @media (min-width:2048px){
     .jumbotron-container {
         background-size:100vw calc(100vh -  48px);
     }
 }
 
+/* Media query for desktops */
 
 @media (min-width:768px) {
     .navbar-fixed-top {
@@ -284,8 +301,9 @@ a:link {
 
     .jumbotron-image {
         width: 20vw;
-        height: 100%;
-        padding-left: 36px;
+        max-width: 30vh;
+        height: auto;
+        margin-left: 36px;
         object-fit: cover;
     }
 
@@ -304,6 +322,8 @@ a:link {
         padding: 36px 12px 0px 12px;
     }
 }
+
+/* Media query for mobile/tablet */
 
 @media (max-width:767px) {
     .jumbotron-bkgd-photo {
@@ -405,6 +425,8 @@ a:link {
         width:90vw;
     }
 }
+
+/* Media query for tiny screens */
 
 @media (max-width:375px) {
     .body {
