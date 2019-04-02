@@ -382,6 +382,7 @@ a:link {
     .jumbotron-image {
         width: 100vw;
         height: 20vh;
+        min-height:33vw;
         object-fit: cover;
         padding: 0 -2vw;
         transform: translateX(-2vw)
