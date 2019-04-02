@@ -380,6 +380,7 @@ a:link {
     }
 
     .jumbotron-image {
+        display: none;
         width: 100vw;
         height: 20vh;
         min-height:33vw;
