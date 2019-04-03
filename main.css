@@ -7,6 +7,7 @@ body {
     padding-right:0px;
     background-color:rgb(0,32,32);
     overflow-x: hidden;
+    min-height:100vh;
 }
 
 a:link {
@@ -66,6 +67,7 @@ a:link {
 .jumbotron-container {
     margin-top:18px;
     padding:0 0;
+    height: 100%;
     min-height:calc(100vh - 48px);
     width: 100vw
 }
@@ -97,7 +99,8 @@ a:link {
     margin:0 0;
     padding:0 0;
     width:100vw;
-    height:calc(100vh - 48px);
+    height: calc(100vh - 48px);
+    min-height: fit-content;
     background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -277,13 +280,13 @@ a:link {
     }
 
     .jumbotron-container {
-        min-height:(100vh - 48px);
+        min-height: max(calc(100vh - 48px), fit-content);
         width:100vw;
     }
 
     .jumbotron-bkgd-photo {
         display:grid;
-        min-height:(100vh - 48px);
+        min-height: max(calc(100vh - 48px), fit-content);
         align-items:center;
     }
 
