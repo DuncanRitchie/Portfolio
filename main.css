@@ -384,12 +384,11 @@ a:link {
 
     .jumbotron-image {
         display: none;
-        width: 100vw;
+        position: absolute;
+        width: 20vw;
         height: 20vh;
-        min-height:33vw;
         object-fit: cover;
-        padding: 0 -2vw;
-        transform: translateX(-2vw)
+        margin: -2vw 0 -8vw 80vw;
     }
 
     .jumbotron p {
