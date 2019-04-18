@@ -75,6 +75,7 @@ a:link {
 .anchor {
     display:block;
     position: relative;
+    /* navbar height is 48px */
     transform: translateY(-48px);
     height: 0;
     width: 90vw;
@@ -184,6 +185,20 @@ a:link {
 .cuj-phone {
     display:none;
 }
+
+.cuj-toggle {
+    width: 72px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: right;
+    color: #337ab7;
+    text-decoration: none
+}
+
+.cuj-toggle:hover {
+    color: #23527c;
+    text-decoration: underline
+}  
 
 /* Code Nation project showcase */
 
@@ -415,7 +430,7 @@ a:link {
         margin: 0;
     }
 
-    .cuj-source {
+    .cuj-toggle {
         align-self:flex-end;
     }
 

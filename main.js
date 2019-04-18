@@ -1,13 +1,34 @@
-let  cujSources = document.getElementsByClassName("cuj-source")
+let  cujToggles = document.getElementsByClassName("cuj-toggle")
 let jumbotrons = document.getElementsByClassName("jumbotron-main")
-console.log(cujSources)
-console.log(jumbotrons)
+let showJumbotrons = true
 
-for (i=0;i<cujSources.length;i++) {
-    cujSources[i].addEventListener("click",()=>{
-        console.log("Event listener added!")
-        for (j=1;j<jumbotrons.length;j++) {
+const toggleJumbotrons = () => {
+    if (showJumbotrons) {
+        // This hides all jumbotrons on the page
+        for (j=0;j<jumbotrons.length;j++) {
             jumbotrons[j].style.display = "none"
         }
+        // This changes the text to "Show text"
+        for (k=0;k<cujToggles.length;k++) {
+            cujToggles[k].textContent = "Show text"
+        }
+        showJumbotrons = false
+    }
+    else {
+        // This shows all jumbotrons on the page
+        for (j=0;j<jumbotrons.length;j++) {
+            jumbotrons[j].style.display = "block"
+        }
+        // This changes the text to "Hide text"
+        for (k=0;k<cujToggles.length;k++) {
+            cujToggles[k].textContent = "Hide text"
+        }
+        showJumbotrons = true
+    }
+}
+
+for (i=0;i<cujToggles.length;i++) {
+    cujToggles[i].addEventListener("click",()=>{
+        toggleJumbotrons()
     })
 }
