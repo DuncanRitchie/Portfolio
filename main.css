@@ -244,7 +244,7 @@ a:link {
     justify-content:space-evenly;
     text-decoration:none;
     color:teal;
-    font-weight:bold;
+    font-weight:bold
 }
 
 .index-link-a:hover {
@@ -260,9 +260,15 @@ a:link {
     padding:0 20px;
 }
 
+.index-made-with {
+    /* font-size is set in media queries */
+    font-weight:normal
+}
+
 .index-finish-date{
+    /* font-size is set in media queries */
     color:grey;
-    font-weight:normal;
+    font-weight:normal
 }
 
 .index-link-to-bad-page {
@@ -338,6 +344,10 @@ a:link {
         height:100vh;
         font-size:18px;
         padding: 36px 12px 0px 12px;
+    }
+
+    .index-made-with,.index-finish-date,.index-reason-no-demo {
+        font-size: 16px
     }
 }
 
