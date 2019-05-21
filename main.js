@@ -1,0 +1,1 @@
+window.location.replace("https://www.duncanritchie.co.uk"+window.location.pathname)
